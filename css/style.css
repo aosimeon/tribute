@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #333333;
+  text-align: center;
+}
+
+/* Wrapper */
+
+.container {
+  width: 95%;
+  background-color: #eeeeee;
+  margin: 30px auto;
+  border-radius: 7px;
+}
+
+#main {
+  width: 100%;
+}
+
+/* Header Section */
+
+header {
+  padding: 30px 0 20px 0;
+}
+
+header #title {
+  margin-bottom: 10px;
+}
+
+/* Image */
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img-div {
+  margin: 1rem;
+  background-color: #fff;
+}
+
+#img-div figcaption {
+  padding: 15px 0;
+}
+
+/* Tribute Info */
+
+#tribute-info {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 40px;
+}
+
+#tribute-info li {
+  padding: 5px 0;
+}
+
+#tribute-info > p {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Quote */
+
+blockquote {
+  text-align: center;
+  padding: 5px 80px;
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Tribute Resource */
+
+p.tribute-resource {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.tribute-resource strong {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
